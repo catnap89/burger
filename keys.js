@@ -1,0 +1,1 @@
+exports.mysqlConnect = process.env.MYSQLPASS;
