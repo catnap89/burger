@@ -1,3 +1,6 @@
+// orm.js have the methods that will execute the necessary MySQL commands in the controllers.
+// These are the methods you will need to use in order to retrieve and store data in your database.
+
 // Import the MYSQL connection object
 var connection = require("./connection");
 
