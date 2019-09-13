@@ -11,3 +11,10 @@ CREATE TABLE burgers
   devoured BOOLEAN not null default false,
 	PRIMARY KEY (id)
 );
+
+CREATE TABLE toppings
+{
+	id int NOT NULL AUTO_INCREMENT,
+	topping_name varchar(255) NOT NULL,
+	PRIMARY_KEY (id)
+}
