@@ -1,6 +1,6 @@
+require("dotenv").config();
 var mysql = require("mysql");
 var mysqlPass = require("../keys")
-require("dotenv").config();
 
 
 var connection = mysql.createConnection({
