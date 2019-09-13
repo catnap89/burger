@@ -22,7 +22,8 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Static directory to be served
-app.use(express.static("public/assets"));
+// app.use(express.static("public"));
+app.use(express.static(__dirname + "/public"));
 
 // Import routes and give the server access to them.
 var routes = require("./controllers/burgers_controller.js");
